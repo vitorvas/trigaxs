@@ -1,15 +1,15 @@
-% --- Arquivo materials 1:
+% --- Arquivo materials 2:
 %
 % Definição dos materiais para a simulação na temperaturas
 % médias:
 %
-% fuel:		470 K
-% cladding: 	400 K
-% moder: 	316 K
+% fuel:		495 K
+% cladding: 	403 K
+% moder: 	319 K
 
 % ---  fuel Triga U-235:
 
-mat fuel         7.6526e-02  tmp 470 moder hzr4 1001  moder zrh4 40000  
+mat fuel         7.6526e-02  tmp 495 moder hzr4 1001  moder zrh4 40000  
       1001.03c    3.7525e-02 %-0.01006
       40000.03c   3.7727e-02 %-0.91058
       92235.03c   2.5744e-04 %-0.01572
@@ -17,13 +17,13 @@ mat fuel         7.6526e-02  tmp 470 moder hzr4 1001  moder zrh4 40000
 
 % --- Revestimento de aluminio
 
-mat cladAl       0.060261 tmp 400
+mat cladAl       0.060261 tmp 403
      13027.03c 6.0261e-02
 
 % --- Revestimento de aco-inox (input Hugo Dalle - referenciar)
 % --- Usar tmp e apenas para 03.c
 
-mat cladinox      0.0878646 tmp 400
+mat cladinox      0.0878646 tmp 403
        26054.03c 3.3547e-03                   
        26056.03c 5.2152e-02
        26057.03c 1.1941e-03
@@ -45,7 +45,7 @@ mat cladinox      0.0878646 tmp 400
 
 % --- Water:
 
-mat water        0.09998   tmp 316 moder lwtr 1001 
+mat water        0.09998   tmp 319 moder lwtr 1001 
        1001.03c 6.6653e-02                                                
        8016.03c 3.3327e-02  
 

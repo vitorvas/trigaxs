@@ -65,9 +65,10 @@ cell 210 210 cladinox 1000 -1001
 cell 211 110 fill 310 1001
 cell 310 310 water 1001
 
+% ERRO: se eu tento incluir esta célula dá erro.
 % --- water cell (para completar o anel B nas posicoes das barras
-cell 120 120 water -1000
-cell 320 320 water 1000
+% cell 120 120 water -1000
+% cell 320 320 water 1000
 
 % --- Core lattice ("global unit 0"):
 
