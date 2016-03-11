@@ -15,10 +15,11 @@ set acelib "/home/vitors/workspace/mc/serpent/xsdata/triga_HZr_mod.xsdata"
 
 % --- Material definitions:
 
-include "materials_t1"
+%include "materials_t0"
+%include "materials_t1"
 %include "materials_t2"
 %include "materials_t3"
-%include "materials_t4"
+include "materials_t4"
 
 % --- Parameters ("param block"):
 
@@ -27,7 +28,7 @@ include "materials_t1"
 % Opcoes:
 %  1-Black, 2-Reflective, 3-Periodic
 
-set bc 3 
+set bc 2
 
 % --- Group constant generation:
 
@@ -41,7 +42,7 @@ set nfg  2  0.625E-6
 
 % --- Neutron population and criticality cycles:
 
-set pop 20000 100 20
+set pop 50000 100 20
 
 % ------------------------------------------------------------
 
@@ -67,13 +68,13 @@ cell 310 310 water 1001
 
 % ERRO: se eu tento incluir esta célula dá erro.
 % --- water cell (para completar o anel B nas posicoes das barras
-% cell 120 120 water -1000
-% cell 320 320 water 1000
+ cell 120 120 water -1001
+ cell 320 120 water 1001
 
 % --- Core lattice ("global unit 0"):
 
-% surf  4000  cyl  0.0 0.0 30.0
-surf 4000 sqc 0.0 0.0 10.0
+%surf  4000  cyl  0.0 0.0 10.0
+surf 4000 sqc 0.0 0.0 11.2
 
 cell 400   0  fill 400   -4000
 cell 401   0  outside     4000
@@ -83,9 +84,9 @@ cell 401   0  outside     4000
 % --- Core lattice:
 
 lat 400  4  0.0 0.0 2
-%1 0.0 0 100
 6 4.0538 30 100 100 100 100 100 100
-12 7.9807 0 100 110 100 100 100 110 100 110 100 100 100 110
+12 7.9807 0 100 110 100 120 100 110 100 110 100 120 100 110
+
 % ------------------------------------------------------------
 
 % --- Plotters ("plot block"):

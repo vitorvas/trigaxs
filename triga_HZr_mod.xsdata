@@ -57,12 +57,15 @@
    lwj3.00t   lwj3.00t  3      0  0    1.007828  294  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/sssth1
    lwj3.01t   lwj3.01t  3      0  0    1.007828  324  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/sssth1
    lwj3.03t   lwj3.03t  3      0  0    1.007828  374  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/sssth1
-   hze7.04t   hze7.04t  3      0  0    1.007825  296  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
-   hze7.05t   hze7.05t  3      0  0    1.007825  400  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
-   hze7.06t   hze7.06t  3      0  0    1.007825  500  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
-   hzj3.04t   hzj3.04t  3      0  0    1.007828  294  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
-   hzj3.05t   hzj3.05t  3      0  0    1.007828  400  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
-   hzj3.06t   hzj3.06t  3      0  0    1.007828  500  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
+   hze7.03t   hze7.03t  3      0  0    1.007825  296  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
+   hze7.04t   hze7.04t  3      0  0    1.007825  400  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
+   hze7.05t   hze7.05t  3      0  0    1.007825  500  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
+   hze7.06t   hze7.06t  3      0  0    1.007825  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_ENDFB7.ace
+   zhe7.03t   zhe7.03t  3      0  0   89.904730  296  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/zrh_ENDFB7.ace
    zhe7.04t   zhe7.04t  3      0  0   89.904730  400  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/zrh_ENDFB7.ace
    zhe7.05t   zhe7.05t  3      0  0   89.904730  500  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/zrh_ENDFB7.ace
    zhe7.06t   zhe7.06t  3      0  0   89.904730  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/zrh_ENDFB7.ace
+   hzj3.03t   hzj3.03t  3      0  0    1.007828  294  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
+   hzj3.04t   hzj3.04t  3      0  0    1.007828  400  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
+   hzj3.05t   hzj3.05t  3      0  0    1.007828  500  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
+   hzj3.06t   hzj3.06t  3      0  0    1.007828  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/hzr_JEFF31.ace
