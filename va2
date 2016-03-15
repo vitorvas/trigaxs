@@ -28,7 +28,7 @@ include "materials_t4"
 % Opcoes:
 %  1-Black, 2-Reflective, 3-Periodic
 
-set bc 2
+set bc 2 2 1
 
 % --- Group constant generation:
 
@@ -73,8 +73,9 @@ cell 310 310 water 1001
 
 % --- Core lattice ("global unit 0"):
 
-%surf  4000  cyl  0.0 0.0 10.0
-surf 4000 sqc 0.0 0.0 11.2
+% surf  4000  cyl  0.0 0.0 10.0
+% surf 4000 sqc 0.0 0.0 11.2
+surf 4000 cuboid -10.7 10.7 -10.7 10.7 0.0 72.2
 
 cell 400   0  fill 400   -4000
 cell 401   0  outside     4000

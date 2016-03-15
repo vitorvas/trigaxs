@@ -1,7 +1,6 @@
 % --- Arquivo materials 4:
 %
-% Definição dos materiais para a simulação na temperaturas
-% médias:
+% Definição dos materiais para a simulação na temperaturas:
 % 
 % fuel:		526 K
 % cladding: 	405.5 K
@@ -58,5 +57,4 @@ therm hzr5 hze7.05t	 % --- Temperature 500.00K, processed with NJOY 99.259 mat 1
 therm zrh5 zhe7.05t	 % --- Temperature 500.00K, processed with NJOY 99.259 mat 4025
 therm hzr6 hze7.06t	 % --- Temperature 600.00K, processed with NJOY 99.259 mat 125
 therm zrh6 zhe7.06t	 % --- Temperature 600.00K, processed with NJOY 99.259 mat 4025
-
 
