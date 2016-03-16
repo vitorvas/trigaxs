@@ -19,7 +19,12 @@ set acelib "/home/vitors/workspace/mc/serpent/xsdata/triga_HZr_mod.xsdata"
 %include "materials_t1"
 %include "materials_t2"
 %include "materials_t3"
-include "materials_t4"
+%include "materials_t4"
+%include "materials_uranio"
+%include "materials_300"
+%include "materials_400"
+%include "materials_500"
+include "materials_600"
 
 % --- Parameters ("param block"):
 

@@ -46,6 +46,8 @@
   Ni-64.03c  28064.03c  1  28064  0   63.928179  300  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/28064ENDF7.ace
   40000.03c  40000.03c  1  40000  0   91.219622  300  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/40000ENDF68.ace
  Zr-nat.03c  40000.03c  1  40000  0   91.219622  300  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/40000ENDF68.ace
+  40000.06c  40000.06c  1  40000  0   91.219622  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/40000ENDF68.ace
+ Zr-nat.06c  40000.06c  1  40000  0   91.219622  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/40000ENDF68.ace
   92235.03c  92235.03c  1  92235  0  235.044148  300  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/92235ENDF7.ace
   U-235.03c  92235.03c  1  92235  0  235.044148  300  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/92235ENDF7.ace
   92235.06c  92235.06c  1  92235  0  235.044148  600  0  /home/vitors/workspace/mc/serpent/xsdata/acedata/92235ENDF7.ace

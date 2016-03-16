@@ -1,0 +1,61 @@
+% --- Arquivo materials 600:
+%
+% Definição dos materiais para a simulação na temperaturas
+% interpoladas de 600K. 
+% 
+% fuel:		600 K
+% cladding: 	410 K
+% moder: 	341 K
+
+% ---  fuel Triga U-235:
+
+mat fuel         7.6526e-02  tmp 600 moder hzr6 1001  moder zrh6 40000  
+      1001.06c    3.7525e-02 %-0.01006
+      40000.06c   3.7727e-02 %-0.91058
+      92235.06c   2.5744e-04 %-0.01572
+      92238.06c   1.0167e-03 %-0.06364
+
+% --- Revestimento de aluminio
+
+mat cladAl       0.060261 tmp 410
+     13027.03c 6.0261e-02
+
+% --- Revestimento de aco-inox (input Hugo Dalle - referenciar)
+% --- Usar tmp e apenas para 03.c
+
+mat cladinox      0.0878646 tmp 410
+       26054.03c 3.3547e-03                   
+       26056.03c 5.2152e-02
+       26057.03c 1.1941e-03
+       26058.03c 1.5921e-04
+       24050.03c 7.5430e-04
+       24052.03c 1.4546e-02
+       24053.03c 1.6492e-03
+       24054.03c 4.1057e-04
+       28058.03c 5.5263e-03
+       28060.03c 2.1127e-03
+       28061.03c 9.1471e-05
+       28062.03c 2.9060e-04
+       28064.03c 7.3663e-05
+       25055.03c 1.7295e-03
+       14000.03c 3.3831e-03
+        6000.03c 3.1643e-04
+       15031.03c 6.1353e-05
+       16000.03c 5.9256e-05     
+
+% --- Water:
+
+mat water        0.09998   tmp 341 moder lwtr 1001 
+       1001.03c 6.6653e-02                                                
+       8016.03c 3.3327e-02  
+
+% --- Thermal scattering data for light water:
+
+therm lwtr lwj3.00t	 % --- JEFF-3.1 Data for Serpent 1.1.0 (HinH20 at 293.60K) mat 125
+therm hzr4 hze7.04t	 % --- Temperature 400.00K, processed with NJOY 99.259 mat 125
+therm zrh4 zhe7.04t	 % --- Temperature 400.00K, processed with NJOY 99.259 mat 4025
+therm hzr5 hze7.05t	 % --- Temperature 500.00K, processed with NJOY 99.259 mat 125
+therm zrh5 zhe7.05t	 % --- Temperature 500.00K, processed with NJOY 99.259 mat 4025
+therm hzr6 hze7.06t	 % --- Temperature 600.00K, processed with NJOY 99.259 mat 125
+therm zrh6 zhe7.06t	 % --- Temperature 600.00K, processed with NJOY 99.259 mat 4025
+
