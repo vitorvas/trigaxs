@@ -11,7 +11,7 @@ set title "Geração de seções de choque - TRIGA IPR-R1"
 
 % --- Cross section library file path:
 
-set acelib "/home/vitors/workspace/mc/serpent/xsdata/triga_HZr_mod.xsdata"
+set acelib "/home/vitors/workspace/trigaxs/improviso.xsdata"
 
 % --- Material definitions:
 
@@ -23,7 +23,7 @@ set bc 2 2 1
 
 % 2-group structure (group boundary at 0.625 eV)
 
-set gcu  100 200 300 110
+set gcu  100 200 300 120
 set sym  0
 set nfg  2  0.625E-6
 
